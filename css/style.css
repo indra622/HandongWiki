@@ -1,0 +1,735 @@
+/* Definition of all the components */
+#ui-datepicker-div {
+	font-size: 10px;
+	z-index:2000;
+}
+
+.AlertBox {
+	background: #0B1B43 url(../images/iphone/alertBoxBackground.png) repeat-x;
+	border:2px solid #FFF;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.AlertBox h3 {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:18px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.AlertBox h5 {
+	margin-top:5px;
+	color:#FFFFFF;
+	margin-bottom:5px;
+	font-size:13px;
+	text-align:center;
+}
+.AlertBox div {
+	text-align:center;
+}
+.AlertBox button {
+	border:1px solid #84888E;
+	background: #84888E url(../images/iphone/alertBoxButtonBackground.png) repeat-x;
+	margin:5px;
+	height:40px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.Accordion {
+}
+
+.AccordionSpec{
+	border:1px solid #000;
+	font-size:11px;
+	white-space: normal;
+}
+
+.AccordionSpecSelected {
+	background-color:#91F6B9;
+}
+
+.AccordionSpec h3 {
+	margin:0;
+	height:28px;
+	line-height:28px;
+	border-bottom:1px solid #000;
+	cursor:pointer;
+}
+
+.AccordionSpec h3 span{
+	padding-left:4px;
+}
+
+
+.AccordionSpec h5 {
+	margin:0;
+	font-size:13px;
+	height:25px;
+	line-height:25px;
+	cursor:pointer;
+}
+
+.AccordionSpec h5 span {
+	padding-left:10px;
+}
+
+.AccordionSpec div {
+	border-bottom:1px solid #000;
+}
+
+.Arrow {
+}
+
+.ArrowTable {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.ArrowLabel {
+}
+
+
+.Barchar {
+}
+
+.Breadcrumbs {
+}
+
+.Button {
+}
+
+.Buttonbar {
+	margin:0;
+	margin-top:2px;
+	padding:0;
+}
+
+.Buttonbar li {
+	float: left;
+	list-style-type: none;
+	text-align:center;
+	margin-right:2px;
+	padding-right: 11px;
+	padding-left: 11px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border:1px solid #000;
+	background-color:#EEEEEE;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.Buttonbar li a{
+	color:#000000;
+}
+
+.Buttonbar li.ButtonbarSelected {
+	background-color:#91F6B9;
+}
+
+
+
+.Calendar {
+}
+
+.Callout {
+	border:2px solid #333333;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	text-align:left;
+	white-space: normal;
+	word-wrap: break-word;
+	padding:10px;
+}
+
+.Canvas {
+}
+
+.Checkbox {
+}
+
+.CheckboxGroup {
+}
+
+.Colorpicker {
+}
+
+.Columnchart {
+}
+
+.Combobox {
+}
+
+.Coverflow {
+}
+
+.Datagrid {
+}
+
+.Datechooser {
+}
+
+.Fieldset {
+}
+
+.FormattingToolbar {
+	height:28px;
+	background-color:#FFFFFF;
+}
+
+.FormattingToolbarImage {
+	width:16px;
+	height:16px;
+}
+
+.FormattingToolbarSelect {
+	margin-left:5px;
+	margin-right:5px;
+	width:100px;
+	font-size:10px;
+}
+
+.HCurly {
+}
+
+.HCurlyText {
+	text-align:center;
+}
+
+.HCurlyVisible {
+}
+
+.HCurlyInvisible {
+	height:1px;
+}
+
+.VCurly {
+}
+
+.VCurlyText {
+	text-align:center;
+	vertical-align: middle; 
+}
+
+.HCurlyVisible {
+}
+
+.HCurlyInvisible {
+	width:1px;
+}
+
+.HorizontalScrollArrowLeft {
+	cursor:pointer;
+	width:14px;
+	height:14px;
+	border:1px solid #000;
+	border-right:0px;
+}
+.HorizontalScrollArrowRight {
+	cursor:pointer;
+	width:14px;
+	height:14px;
+	border:1px solid #000;
+	border-left:0px;
+}
+.HorizontalScrollBar {
+	height:14px;
+	border:1px solid #000;
+}
+.HorizontalScrollHandle {
+	cursor:pointer;
+	margin-top:1px;
+	margin-left:1px;
+	width: 24px;
+	height: 12px;
+	background-color:#333333;
+}
+
+.HRule {
+}
+
+.HSlider {
+}
+
+.Hsplitter {
+	width:10px;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+.Icon {
+}
+
+.Iconlabel {
+	border:0px;
+}
+
+.Image {
+}
+
+.ImageLabel {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px;
+	background-color:#FFF;
+}
+
+.Iphone {
+}
+
+.IphoneKeyboard {
+}
+
+.IPhoneMenu {
+	border:1px solid #CCCCCC;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+	
+.IPhoneMenu table {
+	height:28px;
+	width:100%;
+	border-bottom:1px solid #BBBBBB;
+}
+
+.IPhoneMenu table.lastTable {
+	border-bottom:0px;
+}
+
+.IPhoneMenu table td.emptyRow {
+}
+
+.IPhoneMenu table td.menuIcon {
+	width:20px;
+}
+
+.IPhoneMenu table td.menuBigIcon {
+	width:48px;
+	height:48px;
+}
+
+.IPhoneMenu table td.rowDesc {
+	width:20px;
+	font-size:11px;
+	color:#4F5B75;
+}
+
+.IPhoneMenu table td.menuSwitch {
+	width:20px;
+}
+
+.IphonePicker {
+	background: #333 url(../images/iphone/pickerBackground.png) repeat-x;
+	width:232px;
+	height:160px;
+}
+
+.IphonePicker table {
+	background: #FFF url(../images/iphone/pickerDataBackground.png) repeat-x;
+	margin-top:10px;
+	height:140px;
+}
+
+.IphonePicker table td {
+	height:28px;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.IphonePicker table tr.selected {
+	background: #EEE url(../images/iphone/pickerSelectedRow.png) repeat-x;
+}
+
+.Label {
+	white-space:normal;
+}
+
+.LabelUp {
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+}
+
+.LabelDown {
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	-o-transform:rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);	
+}
+
+.LabelSlanted {
+	-webkit-transform: rotate(-15deg); 
+	-moz-transform: rotate(-15deg);
+	-o-transform:rotate(-15deg);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.96592583, M12=0.25881905, M21=-0.25881905, M22=0.96592583,sizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.96592583, M12=0.25881905, M21=-0.25881905, M22=0.96592583,sizingMethod='auto expand');	
+}
+
+.Linechart {
+}
+
+.Link {
+}
+
+.Linkbar {
+	margin:0;
+	padding:0;
+}
+
+.Linkbar li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 11px;
+	padding-left: 11px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.Linkbar li.linkbarBorder {
+	border-right:1px solid #000;
+}
+.Linkbar li.linkbarStart {
+	padding-left: 0px;
+}
+.Linkbar li.linkbarEnd {
+	padding-right: 0px;
+}
+
+.List {
+}
+
+.Map {
+	border:1px solid #FFFFFF;
+}
+
+.Menubar {
+}
+
+.Menu {
+}
+
+.Modalscreen {
+}
+
+.MultilineButton. {
+	border:1px solid #000000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align:center;
+}
+
+.MultilineButton h3 {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:16px;
+	text-align:center;
+}
+
+.MultilineButton h5 {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:12px;
+	font-weight:normal;
+	text-align:center;
+}
+
+.Numericstepper {
+}
+
+.Paragraph {
+}
+
+.Paragraph li {
+	margin-left:2em;
+}
+
+.Piechart {
+}
+
+.PointyButton {
+	cursor:pointer;
+}
+
+.Progressbar {
+}
+
+.Radiobutton {
+}
+
+.RadiobuttonGroup {
+}
+
+.Roundbutton {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.Searchbox {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	outline: none;
+	border:1px solid #000;
+	padding-left:20px;
+	background-repeat: no-repeat;
+	background-position: 2px 50%;
+}
+
+.Shape {
+}
+
+.ShapeTable {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.ShapeLabel {
+}
+
+
+.Stickynote {
+	text-align:left;
+	border:0px solid;
+	white-space:normal;
+	white-space: normal;
+	word-wrap: break-word;
+	padding:10px;
+}
+
+.Tabbar {
+}
+
+.Tagcloud {
+}
+
+.Textarea {
+}
+
+.Textinput {
+}
+
+.SubTitle {
+}
+
+.Title {
+}
+
+.Titlewindow {
+}
+
+.Tooltip {
+}
+
+.Tree {
+}
+
+.Unsupported {
+	text-align:center;
+	background-color:#FCF8E3;
+	border:0px solid;
+	white-space:normal!important;
+	padding-top:10px;
+	color:#C09853;
+}
+
+.VerticalScrollArrowUp {
+	cursor:pointer;
+	width:14px;
+	height:14px;
+	border:1px solid #000;
+	border-bottom:0px;
+	padding-left:3px;
+	width:11px;
+}
+.VerticalScrollArrowDown {
+	cursor:pointer;
+	width:14px;
+	height:14px;
+	border:1px solid #000;
+	border-top:0px;
+	padding-left:3px;
+	width:11px;
+}
+.VerticalScrollBar {
+	width:14px;
+	border:1px solid #000;
+}
+.VerticalScrollHandle {
+	cursor:pointer;
+	margin-top:1px;
+	margin-left:1px;
+	width: 12px;
+	height: 24px;
+	background-color:#333333;
+}
+
+.Verticaltabbar {
+}
+
+.Videoplayer {
+}
+
+.Volumeslider {
+}
+
+.Vrule {
+}
+
+.Vslider {
+}
+
+.Vsplitter {
+	height:10px;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+
+.Webcam {
+}
+
+
+UL.HorizontalTabs {
+    list-style: none;
+    padding: 0;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+UL.HorizontalTabsTop {
+	margin-top: 0px;
+	margin-bottom:-3px;
+}
+
+UL.HorizontalTabsBottom {
+	margin-top: -3px;
+	margin-bottom:0px;
+}
+
+
+UL.VerticalTabs {
+    list-style: none;
+    margin: 0;
+	margin-top:15px;
+    padding: 0;
+}
+
+UL.VerticalTabsRight {
+	margin-left:-1px;
+}
+
+UL.VerticalTabsLeft {
+	margin-right:-1px;
+}
+
+UL.VerticalTabs LI {
+  	border: 1px solid #333;
+	margin-bottom:4px;
+	height:25px;
+	line-height:25px;
+	background-color:#DDD;
+}
+
+UL.HorizontalTabs LI {
+	display: inline;
+	border: 1px solid #333;
+	height:25px;
+	line-height:25px;
+	background-color:#DDD;
+}
+
+UL.VerticalTabsRight LI.selected {
+	border-left: 1px solid #FFF;
+	background-color:#FFF;
+}
+
+UL.VerticalTabsLeft LI.selected {
+	border-right: 2px solid #FFF;
+	background-color:#FFF;
+}
+
+UL.HorizontalTabsTop LI {
+	border-bottom: 0px;
+}
+
+UL.HorizontalTabsTop LI.selected {
+	border-bottom: 2px solid #FFF;
+	background-color:#FFF;
+}
+
+UL.HorizontalTabsBottom LI.selected {
+	border-top: 1px solid #FFF;
+	background-color:#FFF;
+}
+
+UL.Tabs LI:hover {
+	background-color:#CCC;
+}
+
+
+UL.Tabs LI A {
+    padding: 0px 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+UL.Tabs LI A:focus {
+    outline: 0;
+}
+div.TabsDivs > div {
+	overflow: hidden;
+    padding: 5px;
+    margin-top: 0;
+    border: 1px solid #333;
+}
+
+div.TabsDivs > div h2 {
+    margin-top: 0;
+}
+
+
+
+.disabledText {
+	color: #BBB;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.rotate90 {
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);	
+}
+.rotate180 {
+	-webkit-transform: rotate(180deg); 
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);	
+}
+.rotate270 {
+	-webkit-transform: rotate(270deg); 
+	-moz-transform: rotate(270deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+}
+.rotate360 {
+}
+

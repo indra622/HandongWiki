@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<HTML>
+ <HEAD>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <TITLE> ID check </TITLE>
+ </HEAD>
+ <BODY>
+<script language="javascript">
+ function IDCheck(idField){
+  if(idField.value !="test") {
+   if(window.confirm(idField.value + "USE?") ) {
+    window.alert(idField.value+ "USE!");
+    opener.document.userInfo.userID.value = idField.value;
+    opener.document.userInfo.userNAME.focus();
+    window.close();
+    return false;
+   } else{
+    window.alert("Duplicated. repeat" );
+    idField.value = "";
+    idField.focus();
+    return false;
+   }
+ }
+}
+ </script>
+ <form name="IDdupCheck">
+ ID : <input type="text" name="getID" length="12" maxlength="25"/>
+ <input type="button" value="check" onclick="IDCheck(document.IDdupCheck.getID)" />
+ </form>
+ </BODY>
+</HTML>

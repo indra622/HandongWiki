@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Handong Wiki Registeration</title>
+	<SCRIPT LANGUAGE ="JAVASCRIPT">
+	function idWinOpen(){
+	window.open("./idCheck.htm","idWin","idWin","left=0,top=0,width=300,height=200");
+	}
+	
+	</SCRIPT>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css"><link rel ="stylesheet" href="css/Wikicss.css">
+
+
+
+	<style type="text/css">
+	#Canvas {
+		position:absolute;
+		left:0px;
+		top:0px;
+	}
+	.Component {
+		white-space: nowrap;
+	}
+	.RelativeComponent {
+		white-space: nowrap;
+	}
+
+	#id{
+	width:79px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#name{
+	width:79px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#pass{
+	width:79px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#icon{
+	width:201px;
+	height:53px;
+	border:0px solid;
+}
+
+#iconlabel{
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#Reg{
+}
+
+#Reg. {
+	width:74px;
+	height:27px;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+
+#Login{
+}
+
+#Login. {
+	width:61px;
+	height:27px;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+
+#ID{
+	width:26.400000000000002px;
+	height:21px;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+
+#password{
+	width:72.60000000000001px;
+	height:21px;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+#Name{
+	width:72.60000000000001px;
+	height:21px;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+
+	</style>
+
+
+  </head>
+  <body>
+
+
+<center>
+</br></br></br></br>
+<p><img id="icon" src="images/icon.JPG" class="Component Image" /></p>
+
+<FORM name="register" method="post" action="register.jsp">
+<p>
+<span id="Name" style ="color:white" class="Component Label ">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspName : </span>
+<input name = "input_name" id="name" type="text" value="" class="Component Textinput" />
+</p>
+
+
+<p>
+<span id="ID" style ="color:white" class="Component Label ">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspID(Student ID) : </span>
+<input name = "input_id" id="id" type="text" value="" class="Component Textinput" />  [<a href="#" style="color:white" onclick = "idWinOpen();">중복확인</a>]    
+</p>
+
+<p><span id="password" style ="color:white" class="Component Label ">Password : </span>
+<input name = "input_pw" id="pass" type="password" value="" class="Component Textinput" />
+</p>
+
+
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button id="Reg" type="submit" class="Component Button btn">Register</button></p>
+
+</FORM>
+
+
+
+</center>
+
+  </body>
+</html>

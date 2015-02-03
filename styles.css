@@ -1,0 +1,131 @@
+        body,a,img{border:0;margin:0;padding:0}
+	img{max-width:100% !important}
+	body{font-family:sans-serif}
+	form{display:inline}
+	div.system{margin:2em 1em}
+	h1{font-size:x-large}
+	.search-result ul{margin:0;padding:0}
+	.search-result li{padding:0;list-style:none}
+	.search-result div.snippet{margin:0.5em 0}
+	.search-result em{font-style:normal;font-weight:bold}
+	.search-page{text-align:center}
+	.search-page *{margin:0 0.5em;padding:0 0.5em}
+	.search-page em{font-style:normal;font-weight:bold}
+	div.indent,div.quote{margin-left:1em}
+	table.wiki,table.wiki td{border-collapse:collapse}
+	table.closure,div.quote{border:1px solid #333}
+	dd{margin-left:1em}
+	ul,ol{padding-left:2em}
+	a{color:#c60}
+	a:visited{color:#c60}
+	a:active{color:#c60}
+	a.nonexistent{color:gray}	a.external,a.externalLink{color:#090}
+	em.underline{font-style:normal;text-decoration:underline}
+	del{color:#4c4c4c}del a{color:#630}
+	del a:visited{color:#630}
+	del a:active{color:#630}
+	table.center{margin-left:auto;margin-right:auto}
+	table.right{float:right}
+	table.wiki td{padding:1px;border:1px solid #333}
+	table.wiki td.center{text-align:center}
+	table.wiki td.right{text-align:right}
+	div.imgAttach,div.imgAttach div{display:inline}
+	div.imgAttach span{display:none}
+	.imgLeft,.imgRight{margin:0 10px 5px 10px}
+	.imgLeft{clear:right;float:left}
+	.imgRight{clear:left;float:right}
+	tt.foot a{white-space:nowrap;font-size:xx-small;vertical-align:super}
+	@font-face{font-family:'Nanum Gothic';font-style:normal;font-weight:400;src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format		("embedded-opentype"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format("woff2"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format("woff"),url		(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format("truetype")}
+	@font-face{font-family:'Nanum Gothic';font-style:normal;font-weight:700;src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format		("embedded-opentype"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format("woff2"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format("woff"),url		(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format("truetype")}
+	@font-face{font-family:'Nanum Gothic';font-style:normal;font-weight:800;src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);src:url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot?#iefix) 		format("embedded-opentype"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format("woff2"),url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format("woff"),url		(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format("truetype")}
+	body{font-size:9pt;word-break:break-all}
+	a{text-decoration:none}a:hover{text-decoration:underline}
+	.system .placeholder{margin:7em;text-align:center}
+	#cse td{border:0}
+	.search-form{margin:1em 0}
+	#_search_form .form{margin:1em}	#_search_form input{font-size:large}
+	#_search_form input.input{width:20em}
+	@media only screen and (max-width: 604px){#_search_form input.input{width:8em}}
+	.search-result li{margin:0.5em 0 2em}.search-result a.wiki{font-size:large}	
+	div.boilerplate{padding:0.5em;text-align:center;font-size:large}
+	div.boilerplate a{font-weight:bold;text-decoration:underline}
+	div.root{clear:both;width:1100px;margin:0 auto}
+	header{position:relative}
+	nav{display:block;padding:6px 12px}
+	nav .wrapper{position:relative}
+	nav span.title{position:absolute;top:50%;right:178px;margin-top:-0.62em;line-height:1.24em;white-space:nowrap;text-align:right;color:white}
+	nav a.title{display:block;position:absolute;right:0;font-size:large}	
+	nav span.desc{display:block;position:absolute;top:2px;left:10px}
+	nav input{margin:0;font-size:large}
+	nav input.input{border:0;width:15em}
+	#_toolbox{display:block;border-left:1px solid #333;border-right:1px solid #333;background-color:transparent}
+	.root-article #_toolbox{width:910px}
+	#_toolbox ul{margin:0;padding:0.2em 0}
+	#_toolbox li{float:left;margin:0 0 0 2em;padding:0.2em 0}
+	.root-system .rickshaw_graph .x_tick .title{opacity:0.9;text-shadow:-1px 0 white, -1px 1px white, 0 1px white, 1px 1px white, 1px 0 white, 1px -1px white, 0 -1px white, -1px -1px white}	
+	#_toolbox a.external:before,article a.external:before{padding:0 0.1em;background:green;color:white;content:"?"}
+	#_toolbox a.rigveda:before,article a.rigveda:before{content:"?"}
+	.root-article #_ad{clear:right;float:right;min-height:60px}
+	.root-system #_ad{padding:30px 0;min-height:50px}
+	#_core{padding:10px 10px 10px 20px;border:1px solid #333;border-top:none;line-height:150%}
+	.root-article #_core{display:block;clear:left;width:1068px}
+	.root-system #_core{padding-top:15px}
+	#_core>.body{margin-top:1em}
+	h1.wikiTitle{margin:1em 0;font-size:xx-large;font-family:'Nanum Gothic', sans-serif;line-height:120%}
+	article footer{clear:both;margin-top:1em}
+	article footer .last-modified{float:left;margin:0;font-size:x-small}
+	article footer .license{text-align:right}
+	article footer .license p{margin:0}
+	div.disclaimer{display:block;clear:left;padding:0.5em 0;text-align:center}
+	.root-article div.disclaimer{width:912px}
+	@media only screen and (max-width: 604px){div.root-article{width:100%}
+	div.root-article nav{padding:0.5em 0 0}	
+	div.root-article nav span.title{float:right;position:relative;top:0;right:0;margin:0 0 1em}
+	div.root-article nav a.title{display:inline;position:relative;font-size:medium}
+	div.root-article nav span.desc{display:inline;position:relative;top:0;left:0;margin:inherit}
+	div.root-article nav .search-box{float:none}
+	div.root-article nav input{font-size:medium}
+	div.root-article nav input.input{width:8em}
+	div.root-article #_toolbox{width:100%;border-left:0;border-right:0;line-height:150%;font-size:120%}
+	div.root-article #_toolbox ul{padding-right:80px}
+	div.root-article #_toolbox .shortcut{display:none}
+	div.root-article #_ad{padding:1em 0 3em;float:none}
+	div.root-article #_core{margin-top:1em;padding:0;border:0;width:100%}
+	div.root-article div.disclaimer{width:100%}}
+	div.indent,div.quote{margin-left:1em}
+	table.wiki,table.wiki td{border-collapse:collapse}
+	table.closure,div.quote{border:1px solid #333}
+	dd{margin-left:1em}
+	ul,ol{padding-left:2em}
+	a{color:#c60}
+	a:visited{color:#c60}
+	a:active{color:#c60}
+	a.nonexistent{color:gray}
+	a.external,a.externalLink{color:#090}
+	em.underline{font-style:normal;text-decoration:underline}
+	del{color:#4c4c4c}
+	del a{color:#630}
+	del a:visited{color:#630}
+	del a:active{color:#630}
+	table.center{margin-left:auto;margin-right:auto}
+	table.right{float:right}
+	table.wiki td{padding:1px;border:1px solid #333}
+	table.wiki td.center{text-align:center}
+	table.wiki td.right{text-align:right}
+	div.imgAttach,div.imgAttach div{display:inline}
+	div.imgAttach span{display:none}
+	.imgLeft,.imgRight{margin:0 10px 5px 10px}
+	.imgLeft{clear:right;float:left}
+	.imgRight{clear:left;float:right}
+	tt.foot a{white-space:nowrap;font-size:xx-small;vertical-align:super}
+	body{background:#000;color:#999}
+	input{background:#333;color:#666;border:1px solid #666}	
+	div.boilerplate{background:#333}
+	nav{border:solid 1px #333}
+	nav a{color:#999}
+	nav span.title{color:#999}
+	#_toolbox{border-bottom:1px solid #333}
+	a.external:before{background:#060;color:#999}
+	.ac_odd{background-color:#333}
+	.ac_even{background-color:#000}
+	#content{width:500px;margin-right:auto}
